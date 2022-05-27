@@ -1,0 +1,13 @@
+# local .terraform dir
+.terraform/*
+terraform_1.1.9_windows_386/*
+
+# tf state files
+*.tfstate
+*.tfstate.*
+
+# tf variable files, may include sensitive data
+*.tfvars
+
+# credentials
+*.json
